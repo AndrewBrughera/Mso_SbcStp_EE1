@@ -1,5 +1,6 @@
 # Mso_SbcStp_EE1
-(Anaconda Python 3.7, Brian 2 Neural Simulator)HodgkinHuxleyType models:
+(Anaconda Python 3.7, Brian 2 Neural Simulator)HodgkinHuxleyType models: EE MSO neurons & adapting SBCs (AMBB)
+
 Medial Superior Olive (MSO) neurons 
 with excitatory inputs from  
 SphericalBushyCells (SBCs) adapting/non-adapting

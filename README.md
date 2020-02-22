@@ -1,3 +1,16 @@
 # Mso_SbcStp_EE1
-HodgkinHuxleyType models for MSO neurons with excitatory inputs from (adapting/non-adapting) spherical bushy cells (SBCs) (Anaconda Python 3.7, Brian 2 Neural Simulator): amplitude modulated binaural beats (AMBBs) are the default stimulus.  modxHz folders hold code for AMBB-responses without synaptic adaptation; in the AM subfolders, stimuli are AM (no beats) with static IPD. TauRec25ms subfolders hold code for the synaptic adaptation conditions with AMBB stimuli, and have their own AM subfolders.  Model SBCs receive excitatory inputs from model auditory nerve fibers (medium spontaneous rate) (Zilany et al., 2014; code shared at Carney lab), with stimuli and spike-times generated using the two Matlab scripts (.m files).
+(Anaconda Python 3.7, Brian 2 Neural Simulator)HodgkinHuxleyType models:
+Medial Superior Olive (MSO) neurons 
+with excitatory inputs from  
+SphericalBushyCells (SBCs) adapting/non-adapting
+(Rothman & Manis 2003; Rudnicki & Hemmert 2017)
+
+Model SBCs receive excitatory inputs from Model  
+Auditory Nerve Fibers (ANFs) (Zilany et al. 2014)
+of medium spontaneous rate
+Complete ANF Matlab code downloaded from
+https://www.urmc.rochester.edu/labs/carney/publications-code/auditory-models.aspx
+
+Amplitude modulated binaural beats (AMBBs) are the default stimulus.  modxHz folders hold code for AMBB-responses without synaptic adaptation; in the AM subfolders, stimuli are AM (no beats) with static interaural phase difference (IPD). TauRec25ms subfolders hold code for the synaptic adaptation conditions with AMBB stimuli, and have their own AM subfolders.
+
 (Outside Github: data folders on figshare and network drives have additional conditions, and slightly different organization. There the data for AM-noBeats-staticIPD stimuli with and without synaptic adaptation, identified by filename, are in the TauRec25ms\AM folders.)

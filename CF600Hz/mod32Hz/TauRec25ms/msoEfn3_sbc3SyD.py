@@ -135,8 +135,8 @@ def mkmsoEn(inputSpkFileTuple, temp_degC=37):
     winf = 1./(1+exp((v/mV + 57.34)/(-11.7))) : 1
     k = 0.27 : 1
     zinf = ((1.- k)/(1+exp((v/mV+67.)/6.16))) + k : 1
-    wtau = ((21.5/((6.*exp((v/mV+60.)/7.))+(24.*exp(-1*(v/mV+60.)/50.6))))+0.35)*ms : second
-    ztau = ((170./(5.*exp((v/mV+60.)/10.)+exp((v/mV+70.)/8.)))+10.7)*ms : second
+    wtau = ((21.5/((6.*exp((v/mV+60.)/7.))+(24.*exp(-(v/mV+60.)/50.6))))+0.35)*ms : second
+    ztau = ((170./(5.*exp((v/mV+60.)/10.)+exp(-(v/mV+70.)/8.)))+10.7)*ms : second
     gKltbar : siemens/meter**2
     """
     
